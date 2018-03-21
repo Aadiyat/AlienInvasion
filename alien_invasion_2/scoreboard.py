@@ -1,3 +1,7 @@
+"""
+Module for the scoreboard
+"""
+
 import pygame.font
 from pygame.sprite import Group
 from ship import Ship

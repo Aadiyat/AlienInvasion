@@ -1,3 +1,8 @@
+"""
+This module handles all the game logic
+See description below each function for details.
+"""
+
 import sys
 import pygame
 

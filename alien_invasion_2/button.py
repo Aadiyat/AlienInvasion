@@ -1,3 +1,7 @@
+"""
+Module for the play button
+"""
+
 import pygame.font
 # we'll make a rect and then add a label to it.
 class Button():

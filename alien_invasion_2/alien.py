@@ -1,3 +1,10 @@
+"""
+This module has the code for each alien. The alien class inherits from
+Sprite so that all the aliens on the screen can be handled together.
+The class contains methods to draw each alien on the screen and
+update the aliens' position on the screen
+"""
+
 import pygame
 from pygame.sprite import Sprite
 import pygame.mixer

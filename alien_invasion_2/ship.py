@@ -1,3 +1,9 @@
+"""
+This module has the code for the player controlled ship
+The ship class has methods for updating the ship position and drawing the 
+ship on the screen
+"""
+
 import pygame
 from pygame.sprite import Sprite
 

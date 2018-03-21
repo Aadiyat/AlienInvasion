@@ -1,3 +1,6 @@
+"""
+This module stores and updates the game stats, such as high score
+"""
 class GameStats():
     """Tracks statistics for alien invasion."""
     

@@ -1,3 +1,13 @@
+"""
+This module has the code for the missile that the ship can fire. 
+The module also has the code for the explosions that occur when a missile 
+connects with an alien.
+
+The missile class and the explosion class inherit from Sprite so that the 
+missiles and the explosions can be handled together. Each class has methods
+to draw the objects on the screen and update the positions of the objects
+"""
+
 import pygame
 from pygame.sprite import Sprite
 

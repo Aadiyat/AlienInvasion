@@ -1,3 +1,11 @@
+"""
+This module has the code for the bullets that the ship can fire.
+The ship class inherits from sprite so tha all the bullets can be handled
+together.
+The class has methods to draw the bullets on the screen and update their 
+positions.
+"""
+
 import pygame
 from pygame.sprite import Sprite
 import pygame.mixer

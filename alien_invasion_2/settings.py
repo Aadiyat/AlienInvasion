@@ -1,3 +1,8 @@
+"""
+This module contains all the settings from the game, including the 
+speed of the aliens, the ship and the bullets.
+"""
+
 class Settings():
     """A class to store all settings for Alien Invasion."""
     
@@ -20,7 +25,7 @@ class Settings():
         # time to encourage accuracy.
     
     # Alien settings
-        self.fleet_drop_speed = 10
+        self.fleet_drop_speed = 7
     
     # Missile settings.
         self.missile_width = 6
@@ -45,8 +50,8 @@ class Settings():
     def initialise_dynamic_settings(self):
         """Intialise settings that change thorughout the game."""
         self.ship_speed_factor = 5
-        self.bullet_speed_factor = 8
-        self.alien_speed_factor = 4        
+        self.bullet_speed_factor = 4
+        self.alien_speed_factor = 2        
         
         self.alien_points = 50
         

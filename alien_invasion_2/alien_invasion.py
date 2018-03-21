@@ -1,3 +1,9 @@
+"""
+This is the main game interface.
+It initialises the game objects and contains the main loop.
+For game logic see game_functions.py
+"""
+
 import pygame
 from pygame.sprite import Group
 from time import sleep
